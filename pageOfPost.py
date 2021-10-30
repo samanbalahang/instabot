@@ -52,7 +52,7 @@ class PageOfpost:
         find_serial = browser.find_element_by_css_selector(".aOOlW.bIiDR")
         find_serial.click()
         print ("alow btn clicked")
-        sql = "Select * from urls where(description = 'posts' and belongs_to = '')"
+        sql = "Select * from `urls` where(description = 'posts' and (belongs_to = '' or `belongs_to` IS NULL))"
         excutable.execute(sql)
         myresult = excutable.fetchall()
         for x in myresult:            

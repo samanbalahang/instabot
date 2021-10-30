@@ -9,7 +9,6 @@ class activities:
         optionsExcute = excutable.fetchall()
         return optionsExcute
     def selectedActivity(id:int):
-        
         return {
             1: 'first Selected',
             2: 'second Selected',

@@ -64,7 +64,7 @@ user_pass = insta_user[1]
 #     user_name,
 #     user_pass
 # )
-
+ 
 
 # print(user_pass)
 # sql = "INSERT INTO urls (url,description) VALUES (%s, %s)"
